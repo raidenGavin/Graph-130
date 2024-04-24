@@ -1,8 +1,45 @@
 body {
-    background-color: darkcyan;
-    color: coral;
+    background-color: rgb(85, 0, 119);
+    color: rgb(118, 221, 0);
 }
 
 h3 {
-    border-bottom: solid 1px coral;
+    border-bottom: solid 1px rgb(252, 206, 0);
+}
+
+header {
+    background-color: rgba(118, 221, 0, 0.4);
+    padding: 10px;
+    margin-left: none;
+}
+
+nav ul {
+    text-align: center;
+    list-style: none; 
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    padding: 9px;
+    display: block;
+    width: 100px;
+    text-decoration: none;
+    background-color: rgb(160, 109, 180);
+    color:rgb(252, 206, 0);
+}
+
+nav a:hover {
+    background-color:rgb(101, 69, 114);
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    text-align: center;
 }
