@@ -6,18 +6,100 @@
     <title>Optimizing Images</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css" integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls" crossorigin="anonymous">
     <link href="../styles/navigation.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ojuju:wght@200..800&family=Protest+Guerrilla&display=swap" rel="stylesheet">
+    <style>
+        .loki {
+            background-color: orange;
+            width: 700px;
+            padding: 7px;
+            margin: 5px;
+            float: left;
+        }
+
+        .leroy {
+            display: inline-block;
+           color: white;
+           vertical-align: top;
+           margin-left: 5px;
+           font-family: "Ojuju", sans-serif;
+        }
+
+        .clear {
+            clear: both;
+        }
+
+        .leo {
+            background-color: darkcyan;
+            padding: 0px 5px 5px 0px;
+
+        }
+
+        .leo img {
+            vertical-align: top;
+            margin: 10px 5px 3px 6px;
+        }
+
+        h1 {
+            font-family: "Protest Guerrilla", sans-serif;
+        }
+    </style>
+    
+
 </head>
 <body>
     <header>
         <nav class="pure-g">
-            <a class="pure-u-1-6" href="../index.html">Home</a>
-            <a class="pure-u-1-6" href="history-refactor.html">History</a>
-            <a class="pure-u-1-6" href="theater2.html">Theater</a>
-            <a class="pure-u-1-6" href="stew recipe.html">Stew</a>
-            <a class="pure-u-1-6" href="cascade.html">Cascades</a>
+            <a class="pure-u-1-7" href="../index.html">Home</a>
+            <a class="pure-u-1-7" href="history-refactor.html">History</a>
+            <a class="pure-u-1-7" href="theater2.html">Theater</a>
+            <a class="pure-u-1-7" href="stew recipe.html">Stew</a>
+            <a class="pure-u-1-7" href="cascade.html">Cascades</a>
+            <a class="pure-u-1-7" href="optimizing-image.html">Images</a>
         </nav>
     </header>
 
+        <h1>Optimizing Images</h1>
 
+    <article class="loki">
+        <img src="../images/80.jpg" alt="80% jpg sample" width="500px">
+        <section class="leroy"><p>80% JPG - 142k<br>  Quality - Okay </p> </section>
+    </article>
+    <article class="loki">
+        <img src="../images/40.jpg" alt="40% jpg sample" width="500px">
+        <section class="leroy"><p>40% JPG - 52k<br>Quality - Decent </p></section>
+    </article>
+    <article class="loki">
+        <img src="../images/256.gif" alt="256 Color Gif sample" width="500px">
+        <section class="leroy"><p>256 Color Gif - 143k<br>Quality - Okay </p></section>
+    </article>
+    <article class="loki">
+        <img src="../images/64.gif" alt="64 Color Gif sample" width="500px">
+        <section class="leroy"><p>64 Color Gif - 99k<br>Quality - Decent </p></section>
+    </article>
+    <article class="loki">
+        <img src="../images/8.gif" alt="8 Color Gif sample" width="500px">
+        <section class="leroy"><p>8 Color Gif - 42k<br>Quality - Poor </p></section>
+    </article>
+    <article class="loki">
+        <img src="../images/24.png" alt="24 PNG sample" width="500px">
+        <section class="leroy"><p>PNG 24 - 375k<br>Quality - Okay </p></section>
+    </article>
+
+    <div class="clear">
+          </div>
+    <article class="leo">
+        <img src="../images/918.jpg" alt="Porsche 918" width="400px">
+        <img src="../images/audi1.jpg" alt="Audi S3" width="400px">
+        <img src="../images/camaro.jpg" alt="76 Camaro" width="400px">
+        <img src="../images/civic.jpg" alt="Honda Civic" width="400px">
+        <img src="../images/drift 1.jpg" alt="Drifting Car" width="400px">
+        <img src="../images/porschesnow.jpg" alt="Porsche 911 With Snow" width="400px">
+        <img src="../images/r8.jpg" alt="Audi R8" width="400px">
+        <img src="../images/rally.jpg" alt="Ford Focus Rally" width="400px">
+        <img src="../images/stitach.jpg" alt="Subaru Tachometer" width="400px">
+        <img src="../images/subaru race.jpg" alt="Rally Subaru Legacy" width="400px">
+    </article>
 </body>
 </html>
