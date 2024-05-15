@@ -1,7 +1,9 @@
 :root {
+    --blue:#11467d;
     --green:#074817;
     --white:#ffffff;
      font-family: "Raleway", sans-serif;
+     color: var(--blue);
 }
 
 
@@ -15,7 +17,7 @@ body, header, main, footer, section, article, aside {
 main, header, nav ul, footer {
     display: grid;
     grid-template-columns: auto auto auto;
-    background-color: lightgray;
+    background-color: var(--white);
 }
 
 main section {
@@ -68,7 +70,7 @@ header {
 }
 
 header a, header p, nav a {
-    color: lightgray;
+    color: var(--blue);
     text-decoration: none;
 }
 
@@ -96,7 +98,7 @@ nav ul li {
 }
 
 nav ul li:hover {
-    background-color: lightgray;
+    background-color: var(--green);
     color: var(--white);
 }
 
@@ -122,5 +124,15 @@ main section {
 
 .item2, .item4, .item6 {
     background-image: none;
+}
+
+footer {
+    padding: 5px;
+}
+
+.logo1 {
+    height: 100px;
+    width: auto;
+    margin: 10px auto;
 }
 
