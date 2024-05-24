@@ -22,7 +22,7 @@ nav li {
     display: inline-block;
 }
 
-nav a {
+/* nav a {
     flex-grow: 1;
     text-align: center;
     padding: 9px;
@@ -35,7 +35,7 @@ nav a {
 
 nav a:hover {
     background-color:rgb(101, 69, 114);
-}
+} */
 
 body {
     margin: 0px;
