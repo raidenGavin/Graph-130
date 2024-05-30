@@ -1,0 +1,132 @@
+.moul-regular {
+    font-family: "Moul", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .gothic-a1-regular {
+    font-family: "Gothic A1", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+
+  body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Moul", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #d9d9d9;
+    color: #363636;
+  }
+
+  h1 {
+    color: #b2f400;
+    font-size: 45px;
+
+  }
+
+  header {
+    background-color: #363636;
+    display: flex;
+    position: relative;
+    padding-left: 10%;
+    height: 92px;
+  }
+
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #b2f400;
+  }
+
+  nav a {
+    padding: 0px 25px;
+    color: #363636;
+  }
+
+  .first {
+   float: left;
+   position: relative;
+   width: 50%;
+   height: 300px;
+   /* border: 1px solid white; */
+  }
+  
+  .first img {
+    position: absolute;
+    width: 180px;
+    top: -25%;
+    left: 50%;
+    transform-origin: center;
+    transform: rotate(90deg);
+  }
+
+  p {
+    font-family: "Gothic A1", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    background-color: #d9d9d9;
+    box-shadow: 5px 5px 5px 0px #363636;
+    float: right;
+    width: 380px;
+    height: auto;
+    margin-right: 5%;
+  }
+
+  h2 {
+    font-family: "Gothic A1", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #363636;
+    text-decoration: underline;
+    display: inline-block;
+    margin-left: 50px;
+    top: 20px;
+    
+  }
+
+  .background {
+    position: absolute;
+    background-color: #b2f400;
+    width: 30px;
+    height: 30px;
+    left: 40px;
+    margin-top: 10px;
+    z-index: -1;
+  } 
+
+  .one {
+    clear: both;
+  }
+
+  h3 {
+    display: inline-block;
+    text-decoration: underline;
+    margin-left: 15px;
+    font-size: 25px;
+    margin-top: 15px;
+  }
+
+  .central {
+    margin-top: 50px;
+    margin-right: 60px;
+  }
+
+  .embracing {
+    float: left;
+    margin-top: 300px;
+    margin-left: 60px;
+  }
+
+  .chunk {
+    background-image: url(../images/burnout\ mark.png);
+    background-size: cover;
+    background-position: center;
+    background-color: transparent;
+  }
