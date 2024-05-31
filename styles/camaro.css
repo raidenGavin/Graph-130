@@ -125,8 +125,59 @@
   }
 
   .chunk {
-    background-image: url(../images/burnout\ mark.png);
-    background-size: cover;
+    height: 500px ;
+    background-image: url(../images/diag\ mark.png);
+    background-size:150%;
     background-position: center;
     background-color: transparent;
+   
+  }
+
+  .pure-g {
+    margin-top: 50px;
+  }
+
+  .pure-u-1-3 img {
+    width: 80%;
+    height: auto;
+    display: block;
+    margin: auto;
+  }
+
+  .titles {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+  }
+
+  .boxing {
+    margin: 0;
+  }
+
+  .feedback {
+    float: left;
+    margin-top: 50px;
+    margin-left: 60px;
+  }
+
+  .individuals {
+    float: right;
+    margin-top: 300px;
+    margin-right: 60px;
+  }
+
+  .boxes {
+    width: 75%;
+  }
+
+  .final {
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+
+  p img {
+    width: 100%;
   }
