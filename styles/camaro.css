@@ -168,16 +168,40 @@
 
   .boxes {
     width: 75%;
+    padding: 0;
+    margin: 0;
+    display: block;
+    margin: auto;
+    float: none;
+ 
   }
 
+  /* .test {
+    display: block;
+    justify-content: center;
+    align-items: center;
+  
+  } */
+
   .final {
-    width: 600px;
+    margin: 0;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0;
   }
 
   p img {
-    width: 100%;
+    width: 95%;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .essence {
+    padding: 5px;
+   display: block;
+   margin: 0 auto;
+   
   }
