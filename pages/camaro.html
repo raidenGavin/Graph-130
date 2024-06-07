@@ -9,54 +9,97 @@
     <link href="https://fonts.googleapis.com/css2?family=Moul&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Gothic+A1&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css" integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls" crossorigin="anonymous">
+    <link href="../styles/mobilenav.css" rel="stylesheet">
     <link href="../styles/camaro.css" rel="stylesheet">
+    <link href="../styles/cammid.css" rel="stylesheet" media="screen and (max-width:1024px)">
+    <link href="../styles/camsmall.css" rel="stylesheet" media="screen and (max-width:720px)">
+    <!--  I'm sure my code is horribly messy, also it turns out that when I made this wireframe I made the most annoying thing to code ever lol. Tried my best though  -->
 </head>
 <body>
-        <header>
+    <nav class="navbar">
+        <div class="page-title">
+           <p class="bigman"> Graph 130 - Spring 2024</p>
+        </div>
+        <a href="#" class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="history-refactor.html">History</a></li>
+                <li><a href="theater2.html">Theater Bill</a></li>
+                <li><a href="stew recipe.html">Stew Recipe</a></li>
+                <li><a href="cascade.html">Cascades</a></li>
+                <li><a href="optimizing-image.html">Optimizing Images</a></li>
+                <li><a href="media-queries.html">Media Queries</a></li>
+                <li><a href="orcas.html">Orcas</a></li>
+                <li><a href="lopez.html">Lopez</a></li>
+                <li><a href="fluid.html">Fluid</a></li>
+                <li><a href="grids.html">Grids</a></li>
+                
+            </ul>
+        </div>
+    </nav>
+    <header>
             <h1>Growth Mindset</h1>
         </header>
-        <nav>
-            <a href="#" data-target="how">How It Works</a>
-            <a href="#" data-target="what">What You Need</a>
-            <a href="#" data-target="grow">Grow With Others</a>
+        <nav class="different">
+            <a href="#" class="toggle-butwo">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+            <div class="navbar-link">
+                <a href="#how" data-target="how">How It Works</a>
+                <a href="#what" data-target="what">What You Need</a>
+                <a href="#grow" data-target="grow">Grow With Others</a>
+            </div>
         </nav>
     <main>
-        <div class="first">
-            <img src="../images/Camaro top.png">
-        </div>
-        <div>
-            <p>A growth mindset is a transformative approach to learning and development that empowers individuals to embrace challenges, persist through setbacks, and ultimately achieve higher levels of success. Rooted in the belief that abilities and intelligence can be developed through dedication and hard work, it contrasts with a fixed mindset, which assumes that abilities are innate and unchangeable.            </p>
-        </div>
-        <div class="one" id="how">
-            <div class="background"></div>
-            <h2>01</h2>
-            <h3 class="how">How It Works</h3>
-        </div>
-        <div class="chunk">
-            <p class="central">Central to the growth mindset is the idea that failures and difficulties are not indicators of a person's limitations, but rather opportunities for learning and improvement. Instead of viewing setbacks as discouraging roadblocks, individuals with a growth mindset see them as stepping stones on the path to mastery. This outlook fosters resilience and tenacity, enabling individuals to persevere in the face of obstacles.            </p>
-            <p class="embracing">Embracing challenges is a cornerstone of the growth mindset. Rather than shying away from difficult tasks, individuals actively seek them out, recognizing that they provide the greatest potential for growth. They approach challenges with a sense of curiosity and a willingness to stretch their abilities, knowing that even if they don't immediately succeed, they are still expanding their skills and knowledge.            </p>
-        </div>
+        
+            <div class="first">
+                <img src="../images/Camaro top.png">
+            </div>
+            <div>
+                <p>A growth mindset is a transformative approach to learning and development that empowers individuals to embrace challenges, persist through setbacks, and ultimately achieve higher levels of success. Rooted in the belief that abilities and intelligence can be developed through dedication and hard work, it contrasts with a fixed mindset, which assumes that abilities are innate and unchangeable.            </p>
+            </div>
+            <div class="one" id="how">
+                <div class="background"></div>
+                <h2>01</h2>
+                <h3 class="how">How It Works</h3>
+            </div>
+            <div class="chunk">
+                
+                <p class="central">Central to the growth mindset is the idea that failures and difficulties are not indicators of a person's limitations, but rather opportunities for learning and improvement. Instead of viewing setbacks as discouraging roadblocks, individuals with a growth mindset see them as stepping stones on the path to mastery. This outlook fosters resilience and tenacity, enabling individuals to persevere in the face of obstacles.            </p>
+                <p class="embracing">Embracing challenges is a cornerstone of the growth mindset. Rather than shying away from difficult tasks, individuals actively seek them out, recognizing that they provide the greatest potential for growth. They approach challenges with a sense of curiosity and a willingness to stretch their abilities, knowing that even if they don't immediately succeed, they are still expanding their skills and knowledge.            </p>
+                <img class="dude" src="../images/diag mark.png">
+            </div>
+          
         <div class="one" id="what">
+          
+            <div class="fixes"></div>
             <div class="background"></div>
             <h2>02</h2>
             <h3 class="how">What You Need</h3>
         </div>
         <div class="pure-g boxing">
-            <div class="pure-u-1-3"><img src="../images/hard work wheel.png"> </div>
-            <div class="pure-u-1-3"><img src="../images/dedication wheel.png"> </div>
-            <div class="pure-u-1-3"><img src="../images/DP wheel.png"> </div>
-        </div>
-        <div class="pure-g boxing">
-            <div class="pure-u-1-3"><h3 class="titles">Hard Work</h3></div>
-            <div class="pure-u-1-3"><h3 class="titles">Dedication</h3> </div>
-            <div class="pure-u-1-3"><h3 class="titles">Deliberate Practice</h3></div>
-        </div>
-        <div class="pure-g boxing">
-            <div class="pure-u-1-3 test"><p class="boxes"> This mindset rejects the notion of innate talent as the primary determinant of success, instead attributing achievement to a combination of effort and strategy.</p></div>
-            <div class="pure-u-1-3 test "><p class="boxes">Growth mindset empowers individuals who take ownership in their craft, pushing forward and dedicating themselves to it.</p></div>
-            <div class="pure-u-1-3 test"><p class="boxes">Effort is highly valued in growth mindset, therefore it must be put into action in order for one to get the most from this mindset.</p></div>
+            <div class="pure-u-1-3"><img src="../images/hard work wheel.png">
+            <div ><h3 class="titles">Hard Work</h3> </div>
+            <div ><p class="boxes"> This mindset rejects the notion of innate talent as the primary determinant of success, instead attributing achievement to a combination of effort and strategy.</p></div>
+             </div>
+            <div class="pure-u-1-3"><img src="../images/dedication wheel.png">
+                <div ><h3 class="titles">Dedication</h3> </div>
+                <div ><p class="boxes">Growth mindset empowers individuals who take ownership in their craft, pushing forward and dedicating themselves to it.</p></div>
+            </div>
+                <div class="pure-u-1-3"><img src="../images/DP wheel.png"> 
+                <div ><h3 class="titles">Deliberate Practice</h3> </div>
+                <div ><p class="boxes">Effort is highly valued in growth mindset, therefore it must be put into action in order for one to get the most from this mindset.</p></div>
+          </div>  
         </div>
         <div class="one"  id="grow">
+            <div class="fixes"></div>
             <div class="background"></div>
             <h2>03</h2>
             <h3 class="how">Grow With Others</h3>
@@ -64,11 +107,20 @@
         <div class="chunk">
             <p class="feedback">Feedback is welcomed and appreciated in a growth mindset. Constructive criticism is seen as an invaluable source of information for refining skills and knowledge. It's not taken personally, but rather as a means to accelerate growth and development.            </p>
             <p class="individuals"> Individuals with a growth mindset are inspired by the success of others. They see others' achievements not as threats, but as evidence of what is possible with dedication and hard work. They are eager to learn from and collaborate with those who have excelled in their field.
+                <img class="dudes" src="../images/diag mark.png">
             </p>
         </div>
         <div class="final">
             <p class="essence">In essence, the growth mindset is a powerful philosophy that unlocks human potential. By embracing challenges, valuing effort, seeking feedback, and celebrating the success of others, individuals can cultivate a mindset that propels them toward continuous learning, improvement, and ultimately, their highest levels of achievement. <img src="../images/Camaro side.png">           </p>
         </div>
+        <footer>
+            <h4>Contact Info</h4>
+            <p class="contacts">Social Media: @somethinsomethin</p>
+            <p class="contacts">Email: somethinagain@gmail.com</p>
+            <p class="contacts">(425)-111-7274</p>
+            <p class="contacts">Fax: This still exists?</p>
+
+        </footer>
 
 
 
@@ -76,6 +128,8 @@
 
 
     </main>
+    <script src="../scripts/mobile-nav.js"></script>
+    <script src="../scripts/mobilenavagain.js"></script>
     
 </body>
 </html>

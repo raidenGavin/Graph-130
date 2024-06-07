@@ -12,6 +12,8 @@
   
 
 
+
+
   body {
     margin: 0px;
     padding: 0px;
@@ -77,6 +79,7 @@
     width: 380px;
     height: auto;
     margin-right: 5%;
+    padding: 5px;
   }
 
   h2 {
@@ -88,7 +91,16 @@
     display: inline-block;
     margin-left: 50px;
     top: 20px;
+    z-index: 1;
     
+  }
+
+.one {
+    clear: both;
+   /* z-index: 2;
+   position: inherit; */
+   margin-top: 40px;
+
   }
 
   .background {
@@ -101,9 +113,15 @@
     z-index: -1;
   } 
 
-  .one {
-    clear: both;
+  .fixes {
+    position: absolute;
+    background-color: #d9d9d9;
+    width: 100%;
+   height: 50px;
+   z-index: -1;
   }
+
+  
 
   h3 {
     display: inline-block;
@@ -111,27 +129,47 @@
     margin-left: 15px;
     font-size: 25px;
     margin-top: 15px;
+    
   }
 
   .central {
     margin-top: 50px;
     margin-right: 60px;
+ 
   }
 
   .embracing {
     float: left;
     margin-top: 300px;
     margin-left: 60px;
+ 
   }
 
   .chunk {
     height: 500px ;
-    background-image: url(../images/diag\ mark.png);
+    /* background-image: url(../images/diag\ mark.png);
     background-size:150%;
     background-position: center;
-    background-color: transparent;
-   
+    background-color: transparent; */
+  z-index: 1;
+
   }
+
+
+  .dude {
+    position: absolute;
+    top: 80%; 
+    left: 50%; 
+    transform: translate(-50%, -50%) rotate(140deg); 
+    width: 120%; 
+    height: auto; 
+    z-index: -2; 
+    
+    
+  }
+
+
+  
 
   .pure-g {
     margin-top: 50px;
@@ -140,7 +178,7 @@
   .pure-u-1-3 img {
     width: 80%;
     height: auto;
-    display: block;
+    display: flex;
     margin: auto;
   }
 
@@ -168,7 +206,7 @@
 
   .boxes {
     width: 75%;
-    padding: 0;
+    padding: 5px;
     margin: 0;
     display: block;
     margin: auto;
@@ -203,5 +241,78 @@
     padding: 5px;
    display: block;
    margin: 0 auto;
+   width: 500px;
    
   }
+
+  .bigman {
+    background-color: #363636 ;
+  }
+
+  footer {
+    background-color: #363636;
+    margin-top: 25px;
+    padding-left: 84px;
+   padding-top: 3px;
+   padding-bottom: 30px;
+  }
+
+  h4 {
+    font-family: "Moul", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #b2f400;
+    text-decoration: underline;
+    font-size: 34px;
+    margin: 0;
+    margin-top: 10px;
+  }
+
+  .contacts {
+    font-family: "Gothic A1", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    color: #b2f400;
+    background-color: #363636;
+    box-shadow: none;
+    float: none;
+    width: 380px;
+    height: auto;
+    margin-right: 0;
+    padding: 0;
+  }
+
+  .dudes {
+    position: absolute;
+    top: 250%; 
+    left: 50%; 
+    transform: translate(-50%, -50%) ; 
+    width: 120%; 
+    height: auto; 
+    z-index: -2; 
+  }
+ 
+  .toggle-butwo {
+    /* position:absolute; */
+    top: 10px;
+    right: 16px;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+    padding: 4px;
+    padding-left: 10px;
+}
+
+.toggle-butwo .bar {
+    height: 3px;
+    width: 100%;
+    background-color: #363636;
+    border-radius: 10px;
+
+}
+
+
+

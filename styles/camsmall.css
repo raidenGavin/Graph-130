@@ -1,0 +1,55 @@
+h1 {
+    font-size: 36px;
+}
+
+.first {
+    width: 25%;
+
+}
+
+.first img {
+    transform: rotate(0deg);
+    left: 30%;
+}
+
+p {
+    width: 297px;
+}
+
+.one {
+    font-size: 25px;
+}
+
+.background {
+    margin-top: 25px;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+h3 {
+    font-size: 29px;
+}
+
+.boxing {
+    display: block;
+}
+
+.pure-u-1-3 {
+    display: block;
+    width: 90%;
+    margin: auto;
+}
+
+/* .pure-u-1-3 img {
+    width: 75%;
+} */
+
+.essence {
+    width: 80%;
+}
+
+.dudes {
+    top: 375%;
+}
